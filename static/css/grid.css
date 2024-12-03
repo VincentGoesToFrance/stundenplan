@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #f4f4f4;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2.8fr 1.2fr;
+    grid-template-rows: 1.1fr 1fr 5.9fr 1fr;
+    grid-template-areas: 
+        "header kalender"
+        "infos kalender"
+        "stundenplan kalender"
+        "footer kalender";
+    height: 100vh;
+    padding: 2em 5em;
+}
+
+.header {
+    grid-area: header;
+}
+
+.infos {
+    grid-area: infos;
+}
+
+.stundenplan {
+    grid-area: stundenplan;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.kalender {
+    grid-area: kalender;
+}

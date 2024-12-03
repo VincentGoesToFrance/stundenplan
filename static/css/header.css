@@ -1,0 +1,22 @@
+.header {
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+.header h1 {
+    margin: 0;
+}
+
+.header button {
+    position: absolute;
+    right: 1em;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
